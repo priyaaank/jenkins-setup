@@ -1,0 +1,16 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.2.0)
+    apt (1.4.8)
+    java (1.6.0)
+    jenkins (0.6.3)
+      java (>= 0.0.0)
+      runit (>= 0.0.0)
+    runit (0.15.0)
+
+DEPENDENCIES
+  apache2 (>= 0)
+  apt (>= 0)
+  jenkins (>= 0)
+
